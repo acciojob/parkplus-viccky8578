@@ -71,9 +71,6 @@ public class ParkingLotServiceImpl implements ParkingLotService {
                 spot=spot1;
         }
 
-
-
-
         //Spot spot = spotRepository1.findById(spotId).get();
 
 
@@ -85,8 +82,6 @@ public class ParkingLotServiceImpl implements ParkingLotService {
         spotRepository1.save(spot);
 
         return spot;
-
-
 
 
     }
